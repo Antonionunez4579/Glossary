@@ -1,0 +1,57 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e7e0f3;
+    color: #f25151;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+
+header h2 {
+    font-size: 48px;
+    color: #f25151;
+    margin-bottom: 40px;
+}
+
+.glossary {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: left;
+}
+
+section h3 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+section h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 5px;
+}
